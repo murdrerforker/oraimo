@@ -1,3 +1,31 @@
 nav{
     background-color: #1D1D1D;
+    
+
 }
+
+
+
+.nav-item a{
+    font-size: 16px;
+    letter-spacing: 0.5;
+    font-weight: 500;
+}
+
+ul li a:hover{
+     color: #81E600 !important;
+}
+
+.search-cart{
+    width: 150px;
+    gap: 0px 45px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-right: 30px;
+}
+
+button[data-bs-target="#carouselExampleAutoplaying"]:focus {
+    background-color: #81E600; 
+ }
+ 
+ 

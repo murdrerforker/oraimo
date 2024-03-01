@@ -3943,6 +3943,8 @@ textarea.form-control-lg {
   width: 100%;
 }
 
+
+
 .tab-content > .tab-pane {
   display: none;
 }
@@ -8104,6 +8106,10 @@ textarea.form-control-lg {
 
 .ms-5 {
   margin-left: 3rem !important;
+}
+
+.ms-6 {
+  margin-left: 4rem !important;
 }
 
 .ms-auto {
