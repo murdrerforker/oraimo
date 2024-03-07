@@ -25,7 +25,7 @@ ul li a:hover {
 }
 
 .carousel-indicators button[data-bs-target="#carouselExampleAutoplaying"]:focus {
-   background-color:#81E600 ;
+   background-color: #81E600;
 }
 
 .shipping.mx-5 {
@@ -278,6 +278,32 @@ ul li a:hover {
    font-weight: 450;
 }
 
+/* .get-am .carousel-item{
+   display: flex;
+   margin-left: 3rem;
+   
+}
+
+.get-am .carousel-item img{
+   width: 200px !important;
+   margin-right: 30px;
+
+} */
+
+
+.get-am .carousel-item {
+   margin-left: 3rem;
+
+
+}
+
+.get-am .carousel-item img {
+   width: 300px;
+   margin-right: 30px;
+
+}
+
+
 .newsletter {
    margin: auto;
 }
@@ -330,29 +356,29 @@ ul li a:hover {
    font-size: 23px;
 }
 
-.follow-us{
+.follow-us {
 
-background-color: #191919;
-color: white;
-padding: 8px 0px;
+   background-color: #191919;
+   color: white;
+   padding: 8px 0px;
 }
 
-.follow-us h4{
+.follow-us h4 {
    font-size: 16px;
    line-height: 24px;
    margin-left: 650px;
 }
 
-#dem-social-apps{
+#dem-social-apps {
    margin-left: 500px;
 }
 
-#dem-social-apps i{
+#dem-social-apps i {
    font-size: 30px;
    margin-right: 62px;
 }
 
-#dem-outline{
+#dem-outline {
    background-color: #000000;
    color: white;
    display: flex;
@@ -360,41 +386,154 @@ padding: 8px 0px;
 
 }
 
-#sub-outline{
-margin-left: 3rem;
-margin-top: 15px;
+#sub-outline {
+   margin-left: 3rem;
+   margin-top: 15px;
 
 
 }
 
-#sub-outline h5{
+#sub-outline h5 {
    font-size: 16px;
    line-height: 24px;
    font-weight: 500;
 }
 
-.cut-p{
+.cut-p {
    width: 250px;
 }
 
-#sub-outline a{
-text-decoration: none;
-color: #B3B3B3;
-display: block;
-margin-bottom: 12px;
+#sub-outline a {
+   text-decoration: none;
+   color: #B3B3B3;
+   display: block;
+   margin-bottom: 12px;
 }
 
 
-.almighty-footer{
+.almighty-footer {
    background-color: #191919;
    padding: 10px 0px;
    color: #fff;
 }
 
-#footer img{
+#footer img {
    margin-left: 650px;
 }
 
-#footer p{
+#footer p {
    margin-left: 600px;
+}
+
+#product :hover+.hover-products {
+   display: block;
+}
+
+
+.hover-products {
+   display: none;
+   width: 977%;
+   margin-left: -525px;
+   height: 500px;
+   margin-top: 70px;
+
+}
+
+.le-producte {
+   display: flex;
+   margin-left: 3rem;
+}
+
+
+
+
+.over-produce {
+   width: 22%;
+}
+
+.over-produce a {
+   text-decoration: none;
+   color: gray;
+   display: block;
+   margin-top: 6px;
+   font-size: 14px;
+   font-weight: 300;
+
+}
+
+.over-produce hr {
+   margin-right: 60px;
+}
+
+#support :hover+.hover-support {
+   display: block;
+}
+
+
+
+
+
+
+
+.hover-support {
+   display: none;
+   width: 250px;
+   height: 250px;
+   background-color: white;
+   padding: 10px;
+   margin-top: 70px;
+
+
+
+}
+
+.hover-support a {
+   text-decoration: none;
+   color: gray;
+   display: block;
+   margin-bottom: 20px;
+   font-size: 14px;
+   font-weight: 300;
+
+}
+
+.hover-support hr {
+   width: 90%;
+   margin-left: -3px;
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+
+#magnifying:hover + .hover-search,
+.hover-search:hover {
+    display: block;
+}
+
+#magnifying {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.hover-search {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 12px;
+    background-color: white;
+    width: 450px;
+    height: 200px;
+}
+
+#magnifying input {
+    border-radius: 12px;
+    width: 350px;
+    border: none;
+    padding: 10px;
+}
+
+#magnifying i {
+    color: grey;
+    margin-left: -24px;
 }
