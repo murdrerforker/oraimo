@@ -1,7 +1,248 @@
-@media screen and (max-width: 475px){
+@media screen and (max-width: 475px) {
 
+    .navbar-brand {
+        margin-left: -44px;
+    }
 
+    .navbar-toggler {
+        color: white;
+        background-color: white;
+        width: 50px;
+        transform: translateX(30px);
+    }
 
-    
+    .search-cart {
+        width: 90px;
+        gap: 0px 25px;
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        transform: translate(120px, -30px);
+    }
+
+    .shipping.mx-5 {
+        display: none;
+    }
+
+    #carouselExampleSlidesOnly {
+        display: block;
+   background-color: #FAFAFA;
+   
+
+    }
+
+    #carouselExampleSlidesOnly span{
+        margin: 12px 0px 12px 45px;
+    }
+
+    .audio-power {
+        margin-left: -40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+     }
+     
+     .audio-power img {
+        border-radius: 8px;
+        width: 170px;
+     }
+
+     .master-grid {
+        gap: 7px;
+     }
+
+     .thegrid {
+        margin-top: 24px;
+        /* height: 250px;
+        width: 425px;
+        background-color: white; */
+        border-radius: 8px;
+        background-color: white;
+        width: 180px;
+        height: 250px;
+        
+        
+     
+     }
+
+     .thegrid img {
+        width: 170px;
+        margin-left: 5px;
+        /* margin-top: -2px; */
+     }
+
+     .thegrid:nth-child(1) img {
+        width: 120px;
+        height: 224px;
+        margin-left: 15px;
+     }
+
+     .thegrid:nth-child(2) {
+        width: 185px;
+        height: 120px;
+     }
+
+     .thegrid:nth-child(3) {
+        width: 185px;
+        height: 120px;
+        transform: translate(0px , -20px);
+     
+     }
+
+     .thegrid:nth-child(4) {
+        width: 185px;
+        height: 120px;
+        transform: translate(-2px, -152px);
+     }
+
+     .thegrid:nth-child(5) {
+      display: none;
+      
+     
+     }
+
+     .thegrid:nth-child(6) {
+      width: 185px;
+      height: 120px;
+      transform: translate(0px, -42px);
+   
+   }
+
+   .thegrid:nth-child(7){
+      display: block;
+      width: 185px;
+      height: 120px;
+      transform: translate(0px , -170px);
+   }
+
+   
+
+   .thegrid:last-child {
+      transform: translate(192px, -193px);
+      width: 185px;
+      height: 120px;
+   
+   }
+
+   .thegrid:last-child img{
+      width: 120px;
+   
+   }
+
+   .grid-or-flex {
+      background-color: #F5F6F6;
+      height: 600px;
+   
+   
+   }
+
+   .oraimoclub p {
+      margin-top: 12px;
+      line-height: 20px;
+      font-size: 14px;
+      font-weight: 400;
+   }
+
+   .get-am .carousel-item {
+      margin-left: 2rem;
+      
+   
+   
+   }
+
+   .get-am .carousel-item img {
+      width: 150px;
+      margin-bottom:12px;
+      margin-right: 30px;
+   
+   }
+
+   .newsletter h3 {
+      
+      margin-left: 130px;
+   
+   }
+
+   .newsletter span {
+      
+      margin-left: 49px;
+   
+   }
+
+   .newsletter input {
+      width: 250px;
+     
+   }
+
+   .newsletter button {
+      
+      transform: translateY(2px);
+   }
+
+   .newsletter p {
+      margin-left: 70px;
+      font-size: 14px;
+      
+   }
+
+   .follow-us {
+
+   
+      padding: 8px 0px;
+   }
+
+   .follow-us h4 {
+      font-size: 16px;
+      line-height: 24px;
+      margin-left: 150px;
+   }
+
+   #dem-social-apps {
+      margin-left: 120px;
+      
 }
-    
+
+#dem-social-apps i {
+   font-size: 10px;
+   margin-right: 22px;
+}
+
+#dem-outline {
+   gap: 10px;
+   flex-direction: column;
+
+}
+
+#footer img {
+   margin-left: 120px;
+}
+
+#footer p {
+   margin-left: 80px;
+}
+
+
+   }
+   
+     
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+     .thegrid h6 {
+        width: 85%;
+        font-size: 9px;
+        padding: 20px;
+        font-weight: 400;
+     }
+
+}

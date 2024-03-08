@@ -53,10 +53,15 @@ ul li a:hover {
    margin-right: 14px;
 }
 
+#carouselExampleSlidesOnly{
+   display: none;
+}
+
 .audio-power {
    display: flex;
    flex-wrap: wrap;
    gap: 20px;
+   
 }
 
 .audio-power img {
@@ -230,6 +235,10 @@ ul li a:hover {
    height: 230px;
    transform: translate(-870px, -25px);
 
+}
+
+.thegrid:nth-child(7){
+   display: none;
 }
 
 .thegrid:last-child {
